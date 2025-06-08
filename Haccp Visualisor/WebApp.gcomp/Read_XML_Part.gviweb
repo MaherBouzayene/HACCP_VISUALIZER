@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="DA44F56E52F638D16C6B737BF0BADDE58CE9FDC101F78C0A4EEEA0C67F9D0EE1CD92699605CC6D5106A257AAAA0F8BEC5468E75884AA333F31135260204BD702" Timestamp="1DB812A16730E83" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="5B3CC98BC7369FB056EAB27C836B45E2FBB3A00D2878395CE5A20FE11507244F13452BA983E664CF53CD57C3C76DAC12C4597ADAD1FDFF5FAD55494814519F97" Timestamp="1DBD8402BB47B0D" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -47,14 +47,6 @@
 				<LoopIteration Bounds="25 75 15 15" Id="f70a05d95118449287011cc6cbafe003" />
 				<LoopCondition Bounds="500 205 15 15" Id="a6e6ff2416e94171959c6aa0d5ac9ba4" />
 				<MatchPattern Bounds="245 70 40 40" Id="1c4501b86f294211a88aa67fa21ed04c" />
-				<Literal Bounds="175 130 40 15" DataType="String" Id="a062c45458334b9c9cfb79f3fe4498bf" Label="a6391bc2d6aa4f53b50ef906fbf9c231" xmlns="http://www.ni.com/MocCommon">
-					<p.Data>&lt;/_</p.Data>
-					<StringBehavior TextDisplayMode="Default" />
-				</Literal>
-				<NodeLabel AttachedTo="a062c45458334b9c9cfb79f3fe4498bf" Bounds="175 148 30 15" Id="a6391bc2d6aa4f53b50ef906fbf9c231" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
-					<p.Text>Regulärer Ausdruck</p.Text>
-				</NodeLabel>
-				<Wire Id="7c7b2f88dfb5485b97e6f61239a5e640" Joints="N(a062c45458334b9c9cfb79f3fe4498bf:Out)|(215,135) h(20) v(-50) N(1c4501b86f294211a88aa67fa21ed04c:regular expression)|(245,85)" xmlns="http://www.ni.com/PlatformFramework" />
 				<IsEmptyStringOrPath Bounds="310 125 30 30" Id="18eda704046b44cabaa08e8e340a7d28" />
 				<CaseStructure Bounds="365 20 100 145" Default="7334ed995524494fa913514ff1db0268" Id="3bbfca07855049fd9527567eabe873b5" Selected="7334ed995524494fa913514ff1db0268" UserSelectorBounds="6 0 88 17">
 					<CaseStructure.Case Bounds="5 5 90 135" Id="7334ed995524494fa913514ff1db0268" Pattern="False">
@@ -129,6 +121,12 @@
 				<Wire Id="81cd6cd9406242b49310d958fdbbc277" Joints="N(25a574c5a29147619c52f26683678448:after substring)|(345,110) N(c2b6e9b5483f42e988ee207edce9181a:3bbfca07855049fd9527567eabe873b5)|(361,110)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="641cf9d9bfc34b2e9a1322de088c754c" Joints="N(1c4501b86f294211a88aa67fa21ed04c:after substring)|(285,95) h(10) v(-5) N(25a574c5a29147619c52f26683678448:string)|(305,90)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="d78dbb5ef6146bd89c4be00353fc29a" Joints="N(1c4501b86f294211a88aa67fa21ed04c:before substring)|(285,75) N(e383a80c10e24b998499741ca0e5da77:3bbfca07855049fd9527567eabe873b5)|(361,75)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Literal Bounds="175 80 40 15" DataType="String" Id="9c4a913a47514baf930a24ce94730a9e" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>"\n"</p.Data>
+					<StringBehavior TextDisplayMode="Default" />
+					<FixedConstantFacade Facade="Line Feed Constant" />
+				</Literal>
+				<Wire Id="886b97b6c46243efb4f393cdc1abed3e" Joints="N(9c4a913a47514baf930a24ce94730a9e:Out)|(215,85) N(1c4501b86f294211a88aa67fa21ed04c:regular expression)|(245,85)" xmlns="http://www.ni.com/PlatformFramework" />
 				<LeftShiftRegister Bounds="-4 45 13 10" Docking="Left" Id="23cdec2266fb4a89ab4507a0a6504250" RightRegister="dc2a35a66a61497b91e1134b0ba4bed4" Terminals="o0=af6802d294684ae4a805f531375abf91, i0=d2c485a6aedf408d8793a6cf01ed5ead" />
 				<RightShiftRegister Bounds="516 45 13 10" Docking="Right" Id="dc2a35a66a61497b91e1134b0ba4bed4" Terminals="f869a9ee8755483c93b77aec3c906ef8=93678a89df74f088c3e403db8b067a1, 9f8b4b144eaa4426801436b3de1558bd=46dce82679f4fa7b0032ee6509d6475" />
 				<RightShiftRegister Bounds="516 110 13 10" Docking="Right" Id="da3ca3b6bd464cfd9b72c3fa6e2cb257" Terminals="f869a9ee8755483c93b77aec3c906ef8, 9f8b4b144eaa4426801436b3de1558bd=4fe1f291da94469aa5e25657fa62477e" />

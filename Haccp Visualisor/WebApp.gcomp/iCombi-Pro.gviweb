@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="0C5D56F2822EEB5622537FF9B31D8F4EB9E07479061665C33FECD5F7E0829D549B2BDADCB52E6DB0CEEA130B3D2C7E94BF756F3D9E84205CFFBF1BC8F90AF6CF" Timestamp="1DBD5FA6ABA21BE" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="547879263A72038C5A8F981C49DAC2C383BFCC19C3E121C97826055984930E69815C698C687E291B61CA94BA9FFD8D51FE0CBB3716796B27BB7CC47FC2624D3A" Timestamp="1DBD8402BB47B0D" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -150,7 +150,7 @@
 			<WhileLoop Bounds="-265 105 3315 710" DiagramId="e7860d905ef8474f8f6250dc87f6062b" Id="92a0fb45b229469085e56a016819c2ad">
 				<LoopIteration Bounds="0 685 15 15" Id="c35e9fbe57324f1badc75e06281a788d" />
 				<LoopCondition Bounds="3265 685 15 15" Id="916ef0cfe9e2405982764e555ea1aed8" />
-				<CaseStructure Bounds="264 30 3016 635" DataType="@bcac46f69b0d4eeb858251279378fce6" Default="edac483fc73046b8a65456ba08395f33" Id="ba2bcf91bdc74ad0915e3e70e4af8ebe" Selected="c21044c6ef854ce08988fb11b45f6771" UserSelectorBounds="1399 0 218 17">
+				<CaseStructure Bounds="264 30 3016 635" DataType="@bcac46f69b0d4eeb858251279378fce6" Default="edac483fc73046b8a65456ba08395f33" Id="ba2bcf91bdc74ad0915e3e70e4af8ebe" Selected="7531df6a1c2c42479b9d007724f2826b" UserSelectorBounds="1399 0 218 17">
 					<CaseStructure.Case Bounds="5 5 3006 625" Id="edac483fc73046b8a65456ba08395f33" Pattern="&quot;Init&quot;, Default">
 						<Wire Id="89e2b22fcfd446b597e3c7ce0f260bba" Joints="N(24c065b3740948d3b86ba489e152f543:Out)|(2981,140) N(53d8914771bb4d2e9639cd4755dada83:edac483fc73046b8a65456ba08395f33)|(3002,140)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="8c0168f519894eb5ae696ac5c9a54434" Joints="N(a247fd41a7204e1987a5e080bce6d30f:edac483fc73046b8a65456ba08395f33)|(4,110) h(342) v(-50) h(2616) v(5) N(3931aef3c4cc4e6398e7a59de166a86d:edac483fc73046b8a65456ba08395f33)|(3002,65)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -362,7 +362,7 @@
 						<Wire Id="1ea1b0ea2123421997d0eb7a098956c0" Joints="N(5c4599bab3454c1c94287ded6970e3d8:error out)|(2201,190) N(53a19d6e6df24a3a94f2e739830a8f33:edac483fc73046b8a65456ba08395f33)|(3002,190)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 3006 625" Id="a3ad4960cda5456884322d2b9d2696f0" Pattern="&quot;Read XML File&quot;">
-						<MethodCall Bounds="246 135 40 40" Id="66e9f3953dac496eb24117d8d4387ac3" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\FileTasks.gcomp\\Read File Text.gvi&quot;" Signature="@78a4fa2064574b028506b14a7dcdf8ce" Target="FileTasks::Read File Text.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="246 135 40 40" Id="66e9f3953dac496eb24117d8d4387ac3" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\FileTasks.gcomp\\Read File Text.gvi&quot;" Signature="@78a4fa2064574b028506b14a7dcdf8ce" Target="FileTasks::Read File Text.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L1" Desc="allowed file types" />
@@ -883,7 +883,7 @@
 							<CaseStructure.Tunnel Bounds="-4 50 13 10" Docking="Left" Id="e48a519fd506415e8ed74b8d9a68d022" Terminals="79a7d6bd67bd455dbe9df4d1266fb1bf=ecadfb4546fc4ef3be7d5412088e99ec, 2c3580ff9ded40dd94dc718c3f456985, 9e59930d8b2c468fbf73e72a5f4acbb0=808af7eddce4a34b66f35d72e4ee64f" />
 						</CaseStructure>
 						<Wire Id="1645d0598c3b44aa9bd6a6de2e7e1c55" Joints="N(66e9f3953dac496eb24117d8d4387ac3:R3)|(286,170) h(59) v(20) N(377f8880088643aa9e6fa39d4cb034ef:L3)|(476,190)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="476 155 40 40" Id="377f8880088643aa9e6fa39d4cb034ef" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Check_File_Content_iCombi_Pro.gviweb&quot;" Signature="@a227264b18aa4b1e978d033d286baf0a" Target="WebApp::Check_File_Content_iCombi_Pro.gviweb" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="476 155 40 40" Id="377f8880088643aa9e6fa39d4cb034ef" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Check_File_Content_iCombi_Pro.gviweb&quot;" Signature="@a227264b18aa4b1e978d033d286baf0a" Target="WebApp::Check_File_Content_iCombi_Pro.gviweb" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="Inhalt Haccp" />
@@ -915,7 +915,7 @@
 					</CaseStructure.Case>
 					<CaseStructure.Case Bounds="5 5 3006 625" Id="7531df6a1c2c42479b9d007724f2826b" Pattern="&quot;Specifications XML&quot;">
 						<Wire Id="fc56918944424f5489921f3024d8084a" Joints="N(d7e8cb6d8a5f4928aa94f3e018481209:Out)|(1221,135) h(5) v(5) N(53d8914771bb4d2e9639cd4755dada83:7531df6a1c2c42479b9d007724f2826b)|(3002,140)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="881 135 40 40" Id="99758a92f858493aac8fd2381e578ec2" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Read_XML_Part.gviweb&quot;" Signature="@6623d896766b479aa517cc019442f3e8" Target="WebApp::Read_XML_Part.gviweb" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="881 135 40 40" Id="99758a92f858493aac8fd2381e578ec2" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Read_XML_Part.gviweb&quot;" Signature="@6623d896766b479aa517cc019442f3e8" Target="WebApp::Read_XML_Part.gviweb" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="Input XML" />
@@ -951,7 +951,7 @@
 						<Wire Id="23c5c8615a2e4523bf6fc622742c7edf" Joints="N(9de461c71e154b11a79539e665f89804:Out)|(811,185) h(60) v(-25) N(99758a92f858493aac8fd2381e578ec2:L2)|(881,160)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="78b0be47d2314a45b8e82daba8ceb617" Joints="N(99758a92f858493aac8fd2381e578ec2:R0)|(921,140) N(503fae48059c49c7a41c7e089d5f0a59:L0)|(996,140)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="4b6525945d3c480f8950f65260b1e67d" Joints="N(99758a92f858493aac8fd2381e578ec2:R3)|(921,170) N(503fae48059c49c7a41c7e089d5f0a59:L3)|(996,170)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="996 135 40 40" Id="503fae48059c49c7a41c7e089d5f0a59" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Specifications_haccp.gviweb&quot;" Signature="@80abbcd35ca54c4daebc365547123117" Target="WebApp::Specifications_haccp.gviweb" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="996 135 40 40" Id="503fae48059c49c7a41c7e089d5f0a59" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Specifications_haccp.gviweb&quot;" Signature="@80abbcd35ca54c4daebc365547123117" Target="WebApp::Specifications_haccp.gviweb" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="Output XML array" />
@@ -1045,7 +1045,7 @@
 						<Wire Id="55c6373df10e40f79f7b4549d2c60447" Joints="N(a247fd41a7204e1987a5e080bce6d30f:f1f243bad9344c169e7764efddf23d39)|(4,110) h(87) B(1) v(-50) h(2871) v(5) N(3931aef3c4cc4e6398e7a59de166a86d:f1f243bad9344c169e7764efddf23d39)|(3002,65) B(1) v(30) N(5737ed22fe6b48f29bd534c8cb805d03:L0)|(111,140)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="6ec2603bfba348a79e47d5cef221adfe" Joints="N(9bd4f60bbcdc4dc08b4341ac6fdc43c5:417c080bf8084773bffc523b2f4aa5b6)|(2340,150) h(622) v(40) N(53a19d6e6df24a3a94f2e739830a8f33:f1f243bad9344c169e7764efddf23d39)|(3002,190)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="674d9874beb94e9e9d97d59d4ba4db3c" Joints="N(605f4327ff8a4586ad327911bc16f9ac:f1f243bad9344c169e7764efddf23d39)|(4,15) h(2958) v(35) N(2ce676f2a77e4db09b87f8cfb056f10f:f1f243bad9344c169e7764efddf23d39)|(3002,50)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="111 135 40 40" Id="5737ed22fe6b48f29bd534c8cb805d03" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Get_All_Part_Txt.gviweb&quot;" Signature="@f23dcbd9bc22424daec666684f6e86d7" Target="WebApp::Get_All_Part_Txt.gviweb" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="111 135 40 40" Id="5737ed22fe6b48f29bd534c8cb805d03" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Get_All_Part_Txt.gviweb&quot;" Signature="@f23dcbd9bc22424daec666684f6e86d7" Target="WebApp::Get_All_Part_Txt.gviweb" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="Happ_file" />
@@ -1227,7 +1227,7 @@
 								</NodeLabel>
 							</CaseStructure.Case>
 							<CaseStructure.Case Bounds="5 5 2060 122" Id="3813315b69164355b55ab8cec2240e06" Pattern="True">
-								<MethodCall Bounds="930 42 40 40" Id="4a509af5e8cb444e8d8ff5d29622943b" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Specifications_txt.gviweb&quot;" Signature="@2dbed949745f45c2b344c9656471226f" Target="WebApp::Specifications_txt.gviweb" xmlns="http://www.ni.com/MocCommon">
+								<MethodCall Bounds="930 42 40 40" Id="4a509af5e8cb444e8d8ff5d29622943b" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Specifications_txt.gviweb&quot;" Signature="@2dbed949745f45c2b344c9656471226f" Target="WebApp::Specifications_txt.gviweb" xmlns="http://www.ni.com/MocCommon">
 									<p.MethodDeclaration>
 										<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 											<Parameter Id="L0" Desc="Get all charge" />
@@ -1351,7 +1351,7 @@
 					<CaseStructure.Case Bounds="5 5 3006 625" Id="c21044c6ef854ce08988fb11b45f6771" Pattern="&quot;Get Events from XML&quot;">
 						<Wire Id="8c10eadc76194ec792960eb02b2677e2" Joints="N(c56a4c90c1a4a99a5e996507cd5b922:Out)|(2941,135) h(21) v(5) N(53d8914771bb4d2e9639cd4755dada83:c21044c6ef854ce08988fb11b45f6771)|(3002,140)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="c2be65d4e7e74f5389c29d39b8e37fe7" Joints="N(a247fd41a7204e1987a5e080bce6d30f:c21044c6ef854ce08988fb11b45f6771)|(4,110) h(667) B(1) h(5) v(-45) N(3931aef3c4cc4e6398e7a59de166a86d:c21044c6ef854ce08988fb11b45f6771)|(3002,65) B(1) v(30) N(837cb7eb6e9845daa50b90b37388d8fe:L0)|(681,140)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="741 135 40 40" Id="5c5906b711a8479490294692b63c3bbe" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Measurements.gviweb&quot;" Signature="@a939b9c67bef4ee094221dd153f3be76" Target="WebApp::Measurements.gviweb" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="741 135 40 40" Id="5c5906b711a8479490294692b63c3bbe" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Measurements.gviweb&quot;" Signature="@a939b9c67bef4ee094221dd153f3be76" Target="WebApp::Measurements.gviweb" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="Output all Parts" />
@@ -1392,7 +1392,7 @@
 							<p.Text>Graph Display</p.Text>
 						</NodeLabel>
 						<Wire Id="c733b2b6ab0149f3aabb632a05d710b3" Joints="N(5c5906b711a8479490294692b63c3bbe:R1)|(781,150) N(6c082622621a427290fc7f5b8529d396:Value)|(874,150)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="681 135 40 40" Id="837cb7eb6e9845daa50b90b37388d8fe" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Add_Parts.gviweb&quot;" Signature="@25987c8caba3401ba93682f7e7431f70" Target="WebApp::Add_Parts.gviweb" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="681 135 40 40" Id="837cb7eb6e9845daa50b90b37388d8fe" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Add_Parts.gviweb&quot;" Signature="@25987c8caba3401ba93682f7e7431f70" Target="WebApp::Add_Parts.gviweb" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="Imput XML" />
@@ -1508,7 +1508,7 @@
 						<NodeLabel AttachedTo="c56a4c90c1a4a99a5e996507cd5b922" Bounds="2791 113 30 14" Id="aaff245d1eb94e4caaba6397c123c769" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>State</p.Text>
 						</NodeLabel>
-						<MethodCall Bounds="1361 135 40 40" Id="c0111f05c113404da5ac478b3608d83a" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\ControlExtensions.gcomp\\Data Grid - String Column - Create Background Color Style.gvi&quot;" Signature="@3c0c779027f9438b93a69d8ea282a203" Target="ControlExtensions::Data Grid - String Column - Create Background Color Style.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="1361 135 40 40" Id="c0111f05c113404da5ac478b3608d83a" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\ControlExtensions.gcomp\\Data Grid - String Column - Create Background Color Style.gvi&quot;" Signature="@3c0c779027f9438b93a69d8ea282a203" Target="ControlExtensions::Data Grid - String Column - Create Background Color Style.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="reference in" />
@@ -1619,7 +1619,7 @@
 						<Wire Id="be9ef38891ab45989a54a44ba9595737" Joints="N(cff7f9341a8640d59c082be9e4f175b5:R3)|(111,170) N(90f1ea511691407e9d7581f33b720398:L3)|(131,170)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="8341c4bdbe6f4f7c970b7ced2a58ff69" Joints="N(98a4fd9f00a247c7908b2cda3eaf8ba8:64e5082883de4fc78e70e8fa93be0828)|(4,170) N(cff7f9341a8640d59c082be9e4f175b5:L3)|(71,170)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="6a1fa01c4621434cbd7e8cbfa6e8dfd5" Joints="N(6c51fef707a54bb1b8f78a5b06adbf20:64e5082883de4fc78e70e8fa93be0828)|(4,120) h(77) v(-40) N(b25eae7d269543cb9997010a88028ea3:64e5082883de4fc78e70e8fa93be0828)|(3002,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="71 135 40 40" Id="cff7f9341a8640d59c082be9e4f175b5" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Get_All_Part_Txt.gviweb&quot;" Signature="@f23dcbd9bc22424daec666684f6e86d7" Target="WebApp::Get_All_Part_Txt.gviweb" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="71 135 40 40" Id="cff7f9341a8640d59c082be9e4f175b5" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Get_All_Part_Txt.gviweb&quot;" Signature="@f23dcbd9bc22424daec666684f6e86d7" Target="WebApp::Get_All_Part_Txt.gviweb" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="Happ_file" />
@@ -1635,7 +1635,7 @@
 						</MethodCall>
 						<Wire Id="ab6cb5d815024b818fd92817e7327b53" Joints="N(cff7f9341a8640d59c082be9e4f175b5:R0)|(111,140) N(90f1ea511691407e9d7581f33b720398:L0)|(131,140)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="6429f42c0b5f46358f864e2dc74e1d4a" Joints="N(50fd724e5b4290aa00cecd1c6b1aea:64e5082883de4fc78e70e8fa93be0828)|(4,75) h(217) v(-40) N(f44ceb79f5e14f8595723e03b21253fc:64e5082883de4fc78e70e8fa93be0828)|(3002,35)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="131 135 40 40" Id="90f1ea511691407e9d7581f33b720398" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Measurements_Txt_iCombiPro.gviweb&quot;" Signature="@87006ccdaaa541408a778ce65fd62861" Target="WebApp::Measurements_Txt_iCombiPro.gviweb" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="131 135 40 40" Id="90f1ea511691407e9d7581f33b720398" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Measurements_Txt_iCombiPro.gviweb&quot;" Signature="@87006ccdaaa541408a778ce65fd62861" Target="WebApp::Measurements_Txt_iCombiPro.gviweb" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="Get all charge" />
@@ -1680,7 +1680,7 @@
 						<CloseReference Bounds="1106 175 40 40" Id="d9b36cdfd0f5497f98cbe5b80a1ce821" />
 						<Wire Id="1cb3b5abd3ab49d8997de4ce1e3b00d8" Joints="N(ef5659a2c669468cbdd8b897954a6e5e:error out)|(1074,210) N(d9b36cdfd0f5497f98cbe5b80a1ce821:error in)|(1106,210)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="b23b7d6b3ebb4c0e8f9b9a901ddae622" Joints="N(ef5659a2c669468cbdd8b897954a6e5e:instance out)|(1074,200) h(22) v(-20) N(d9b36cdfd0f5497f98cbe5b80a1ce821:reference)|(1106,180)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="626 155 40 40" Id="9088fa5a8c13429db4e448f0474a04fa" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Display_all_programm_in_graph.gviweb&quot;" Signature="@f452757f872d4bf9adde4d3b24c89527" Target="WebApp::Display_all_programm_in_graph.gviweb" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="626 155 40 40" Id="9088fa5a8c13429db4e448f0474a04fa" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Display_all_programm_in_graph.gviweb&quot;" Signature="@f452757f872d4bf9adde4d3b24c89527" Target="WebApp::Display_all_programm_in_graph.gviweb" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="Charge infos" />
@@ -1756,7 +1756,7 @@
 						<NodeLabel AttachedTo="d4bd95b915c64f388bc7ce54fbfd333d" Bounds="536 235 125 14" Id="f07dcfd4fb4e49d98be5a08862ee7222" xmlns="http://www.ni.com/PlatformFramework">
 							<p.Text>Cleaning process table</p.Text>
 						</NodeLabel>
-						<MethodCall Bounds="306 135 40 40" Id="5ccdf8f1281e4d85ad70be753715caef" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Get_Cleaning_Processes.gviweb&quot;" Signature="@d82aefdec79d44349ce284bf814a3fe1" Target="WebApp::Get_Cleaning_Processes.gviweb" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="306 135 40 40" Id="5ccdf8f1281e4d85ad70be753715caef" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Get_Cleaning_Processes.gviweb&quot;" Signature="@d82aefdec79d44349ce284bf814a3fe1" Target="WebApp::Get_Cleaning_Processes.gviweb" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="Charge infos input" />
@@ -1875,7 +1875,7 @@
 						</NodeLabel>
 						<Wire Id="8e387cbc2bac45b9bfca86e91e01343b" Joints="N(3c5491925f18435892726b8d199407d5:error out)|(2651,210) h(229) v(-20) N(53a19d6e6df24a3a94f2e739830a8f33:64e5082883de4fc78e70e8fa93be0828)|(3002,190)" xmlns="http://www.ni.com/PlatformFramework" />
 						<ControlReference Bounds="1271 120 150 20" Id="76645b8141e741eba381eb5e2ef1c137" SourceControl="dd39dcc07dfd4a9da17c6092847d2ea3" />
-						<MethodCall Bounds="1451 175 40 40" Id="8fde3f8cc4404874ac2e6dc664439eae" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\ControlExtensions.gcomp\\Data Grid - String Column - Create Background Color Style.gvi&quot;" Signature="@3c0c779027f9438b93a69d8ea282a203" Target="ControlExtensions::Data Grid - String Column - Create Background Color Style.gvi" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="1451 175 40 40" Id="8fde3f8cc4404874ac2e6dc664439eae" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\ControlExtensions.gcomp\\Data Grid - String Column - Create Background Color Style.gvi&quot;" Signature="@3c0c779027f9438b93a69d8ea282a203" Target="ControlExtensions::Data Grid - String Column - Create Background Color Style.gvi" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="reference in" />
@@ -1951,7 +1951,7 @@
 						<Wire Id="f54a19b14caa42b69273164bed0c29b8" Joints="N(a247fd41a7204e1987a5e080bce6d30f:38e7ecc4b93949ff8543a2099e486c76)|(4,110) h(76) B(1) h(2876) v(-45) N(3931aef3c4cc4e6398e7a59de166a86d:38e7ecc4b93949ff8543a2099e486c76)|(3002,65) B(1) v(30) N(7d02e1a06d2a4f0ca48a4ac731dc2f53:L0)|(166,140)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="e1c508c01f444bb2a3532f1c4fe60ee4" Joints="N(98a4fd9f00a247c7908b2cda3eaf8ba8:38e7ecc4b93949ff8543a2099e486c76)|(4,170) N(7d02e1a06d2a4f0ca48a4ac731dc2f53:L3)|(166,170)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="6969f3f943d34cf4a67a2c4f08192090" Joints="N(6c51fef707a54bb1b8f78a5b06adbf20:38e7ecc4b93949ff8543a2099e486c76)|(4,120) h(2897) v(-40) N(b25eae7d269543cb9997010a88028ea3:38e7ecc4b93949ff8543a2099e486c76)|(3002,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="166 135 40 40" Id="7d02e1a06d2a4f0ca48a4ac731dc2f53" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Get_All_Part_Txt.gviweb&quot;" Signature="@f23dcbd9bc22424daec666684f6e86d7" Target="WebApp::Get_All_Part_Txt.gviweb" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="166 135 40 40" Id="7d02e1a06d2a4f0ca48a4ac731dc2f53" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Get_All_Part_Txt.gviweb&quot;" Signature="@f23dcbd9bc22424daec666684f6e86d7" Target="WebApp::Get_All_Part_Txt.gviweb" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="Happ_file" />
@@ -1968,7 +1968,7 @@
 						<Wire Id="d674162e578b49a8b58d7ab1388bae1a" Joints="N(50fd724e5b4290aa00cecd1c6b1aea:38e7ecc4b93949ff8543a2099e486c76)|(4,75) h(2107) v(-40) N(f44ceb79f5e14f8595723e03b21253fc:38e7ecc4b93949ff8543a2099e486c76)|(3002,35)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="8167c529820425fa60039e4d14158d2" Joints="N(605f4327ff8a4586ad327911bc16f9ac:38e7ecc4b93949ff8543a2099e486c76)|(4,15) h(2897) v(35) N(2ce676f2a77e4db09b87f8cfb056f10f:38e7ecc4b93949ff8543a2099e486c76)|(3002,50)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="25eb0aba646946089aa66985210de667" Joints="N(d2bac0f912074600896e081f1e4bd31c:38e7ecc4b93949ff8543a2099e486c76)|(4,55) h(76) v(15) h(2861) v(25) N(e6642342b27543669e0811d9fc0c6813:38e7ecc4b93949ff8543a2099e486c76)|(3002,95)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="366 135 40 40" Id="3ab990644df040fab5068b990794ec23" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Display_Details.gviweb&quot;" Signature="@a43147959c92457fa4f668ee83e007c3" Target="WebApp::Display_Details.gviweb" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="366 135 40 40" Id="3ab990644df040fab5068b990794ec23" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Display_Details.gviweb&quot;" Signature="@a43147959c92457fa4f668ee83e007c3" Target="WebApp::Display_Details.gviweb" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="Get all charge" />
@@ -2047,7 +2047,7 @@
 						<Wire Id="9a2e84a9c79a4af89492e5e671d8a97d" Joints="N(a247fd41a7204e1987a5e080bce6d30f:6b26d01726974febad830d2f23305981)|(4,110) h(76) B(1) h(2917) v(-45) N(3931aef3c4cc4e6398e7a59de166a86d:6b26d01726974febad830d2f23305981)|(3002,65) B(1) v(30) N(8f52e80c1b094e2c9f3491f549dc618a:L0)|(146,140)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="887ee36d02434c3b8953970db9c96c89" Joints="N(98a4fd9f00a247c7908b2cda3eaf8ba8:6b26d01726974febad830d2f23305981)|(4,170) N(8f52e80c1b094e2c9f3491f549dc618a:L3)|(146,170)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="6a323cab565548998c7d389fdc6b169d" Joints="N(6c51fef707a54bb1b8f78a5b06adbf20:6b26d01726974febad830d2f23305981)|(4,120) h(2942) v(-40) N(b25eae7d269543cb9997010a88028ea3:6b26d01726974febad830d2f23305981)|(3002,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="146 135 40 40" Id="8f52e80c1b094e2c9f3491f549dc618a" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Get_All_Part_Txt.gviweb&quot;" Signature="@f23dcbd9bc22424daec666684f6e86d7" Target="WebApp::Get_All_Part_Txt.gviweb" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="146 135 40 40" Id="8f52e80c1b094e2c9f3491f549dc618a" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Get_All_Part_Txt.gviweb&quot;" Signature="@f23dcbd9bc22424daec666684f6e86d7" Target="WebApp::Get_All_Part_Txt.gviweb" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="Happ_file" />
@@ -2089,7 +2089,7 @@
 						<Wire Id="abf0e7dcbe3b4f92a65d7e921e6d5366" Joints="N(a33834f6cbb44941810e00c8ad6e33d3:6b26d01726974febad830d2f23305981)|(4,240) h(81) B(1) v(-45) N(7358d2c2bf8749009e9772de1e9bba5e:array)|(136,195) B(1) v(35) h(246) B(5) h(358) v(-35) N(dcb03bca24b14646928f578326e8c0a9:6b26d01726974febad830d2f23305981)|(3002,240) B(5) N(396bee5045a64ccf96fc65f8b89e22a6:7a57e6af41864cb18b6efd91fb03edb7)|(331,269)" xmlns="http://www.ni.com/PlatformFramework" />
 						<CaseStructure Bounds="276 110 403 155" DataType="String" Default="9c59a6cd1b794e6e9efe23fc0cc84723" Id="7a57e6af41864cb18b6efd91fb03edb7" Selected="10cfbcdee1f544ee95e5c2d6f45b9c46" UserSelectorBounds="500 0 145 17">
 							<CaseStructure.Case Bounds="5 5 393 145" Id="10cfbcdee1f544ee95e5c2d6f45b9c46" Pattern="&quot;;&quot;">
-								<MethodCall Bounds="155 20 40 40" Id="cd4b6dced27441f3a94af9d6ae3f734d" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Display_Details.gviweb&quot;" Signature="@a43147959c92457fa4f668ee83e007c3" Target="WebApp::Display_Details.gviweb" xmlns="http://www.ni.com/MocCommon">
+								<MethodCall Bounds="155 20 40 40" Id="cd4b6dced27441f3a94af9d6ae3f734d" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Display_Details.gviweb&quot;" Signature="@a43147959c92457fa4f668ee83e007c3" Target="WebApp::Display_Details.gviweb" xmlns="http://www.ni.com/MocCommon">
 									<p.MethodDeclaration>
 										<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 											<Parameter Id="L0" Desc="Get all charge" />
@@ -2140,7 +2140,7 @@
 								</NodeLabel>
 								<Wire Id="59da1a14d6bf4bba88d6f4a52dd8e12e" Joints="N(c957fff26bc7476bb5651232d5e25fcd:Out)|(110,85) N(106723fbcadb4840aebd81e1fb49db6f:c0t0v)|(120,85)" xmlns="http://www.ni.com/PlatformFramework" />
 								<Wire Id="14e61091979d471382d3bf46112ab4e6" Joints="N(c0623ab68f2c49e1b4874472ff9a3bd1:10cfbcdee1f544ee95e5c2d6f45b9c46)|(4,100) h(111) v(-5) N(106723fbcadb4840aebd81e1fb49db6f:c1t0v)|(120,95)" xmlns="http://www.ni.com/PlatformFramework" />
-								<MethodCall Bounds="265 20 40 40" Id="d30826b700284cdebc273048f70c1298" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Display_Details.gviweb&quot;" Signature="@a43147959c92457fa4f668ee83e007c3" Target="WebApp::Display_Details.gviweb" xmlns="http://www.ni.com/MocCommon">
+								<MethodCall Bounds="265 20 40 40" Id="d30826b700284cdebc273048f70c1298" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Display_Details.gviweb&quot;" Signature="@a43147959c92457fa4f668ee83e007c3" Target="WebApp::Display_Details.gviweb" xmlns="http://www.ni.com/MocCommon">
 									<p.MethodDeclaration>
 										<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 											<Parameter Id="L0" Desc="Get all charge" />
@@ -2179,7 +2179,7 @@
 								<Wire Id="bc77256021454387b13082ce65ae5005" Joints="N(d30826b700284cdebc273048f70c1298:B0)|(280,60) v(55) N(2bc10752e15b49489be2641bd7db5cef:c0t0v)|(330,115)" xmlns="http://www.ni.com/PlatformFramework" />
 							</CaseStructure.Case>
 							<CaseStructure.Case Bounds="5 5 393 145" Id="9c59a6cd1b794e6e9efe23fc0cc84723" Pattern="&quot;False&quot;, Default">
-								<MethodCall Bounds="110 20 40 40" Id="aefa347c9d554197b815f5a97061868a" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Display_Details.gviweb&quot;" Signature="@a43147959c92457fa4f668ee83e007c3" Target="WebApp::Display_Details.gviweb" xmlns="http://www.ni.com/MocCommon">
+								<MethodCall Bounds="110 20 40 40" Id="aefa347c9d554197b815f5a97061868a" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Display_Details.gviweb&quot;" Signature="@a43147959c92457fa4f668ee83e007c3" Target="WebApp::Display_Details.gviweb" xmlns="http://www.ni.com/MocCommon">
 									<p.MethodDeclaration>
 										<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 											<Parameter Id="L0" Desc="Get all charge" />
@@ -2257,7 +2257,7 @@
 						<Wire Id="39aaa2a220814312ba83897cf80f3495" Joints="N(a247fd41a7204e1987a5e080bce6d30f:2435191b514d40dda0160e087987eafb)|(4,110) h(76) B(1) h(2826) v(-45) N(3931aef3c4cc4e6398e7a59de166a86d:2435191b514d40dda0160e087987eafb)|(3002,65) B(1) v(30) N(d4db3896a7b648df9a40b547e054707b:L0)|(166,140)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="9078435e0ae247beb0cb68d11287d399" Joints="N(98a4fd9f00a247c7908b2cda3eaf8ba8:2435191b514d40dda0160e087987eafb)|(4,170) N(d4db3896a7b648df9a40b547e054707b:L3)|(166,170)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="d65f03eee96c4af9918e732e71cdaa52" Joints="N(6c51fef707a54bb1b8f78a5b06adbf20:2435191b514d40dda0160e087987eafb)|(4,120) h(442) v(-40) N(b25eae7d269543cb9997010a88028ea3:2435191b514d40dda0160e087987eafb)|(3002,80)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="166 135 40 40" Id="d4db3896a7b648df9a40b547e054707b" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Get_All_Part_Txt.gviweb&quot;" Signature="@f23dcbd9bc22424daec666684f6e86d7" Target="WebApp::Get_All_Part_Txt.gviweb" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="166 135 40 40" Id="d4db3896a7b648df9a40b547e054707b" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Get_All_Part_Txt.gviweb&quot;" Signature="@f23dcbd9bc22424daec666684f6e86d7" Target="WebApp::Get_All_Part_Txt.gviweb" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="Happ_file" />
@@ -2274,7 +2274,7 @@
 						<Wire Id="5d77576289a64cabacb276a7111d1ffe" Joints="N(50fd724e5b4290aa00cecd1c6b1aea:2435191b514d40dda0160e087987eafb)|(4,75) h(172) v(-40) N(f44ceb79f5e14f8595723e03b21253fc:2435191b514d40dda0160e087987eafb)|(3002,35)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="fe411716947440c083b3649634f0641b" Joints="N(605f4327ff8a4586ad327911bc16f9ac:2435191b514d40dda0160e087987eafb)|(4,15) h(172) v(35) N(2ce676f2a77e4db09b87f8cfb056f10f:2435191b514d40dda0160e087987eafb)|(3002,50)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="10cd8caeb9734ba79e779792fd051fbf" Joints="N(d2bac0f912074600896e081f1e4bd31c:2435191b514d40dda0160e087987eafb)|(4,55) h(76) v(40) N(e6642342b27543669e0811d9fc0c6813:2435191b514d40dda0160e087987eafb)|(3002,95)" xmlns="http://www.ni.com/PlatformFramework" />
-						<MethodCall Bounds="366 135 40 40" Id="7b7a6955332f4cca9dd5a06e6689221d" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Display_Details.gviweb&quot;" Signature="@a43147959c92457fa4f668ee83e007c3" Target="WebApp::Display_Details.gviweb" xmlns="http://www.ni.com/MocCommon">
+						<MethodCall Bounds="366 135 40 40" Id="7b7a6955332f4cca9dd5a06e6689221d" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Display_Details.gviweb&quot;" Signature="@a43147959c92457fa4f668ee83e007c3" Target="WebApp::Display_Details.gviweb" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="Get all charge" />
@@ -3533,7 +3533,7 @@
 								</NodeLabel>
 								<Wire Id="5fe94093d9c04edcab30654569c6aba0" Joints="N(80138508e32048f5b7110c58991c46fd:R3)|(1090,197) h(354) v(-70) N(87b1598eed5e4259a1004f8373fcf4dd:b7f15114b86407585d3e8f03633be1b)|(2414,127)" xmlns="http://www.ni.com/PlatformFramework" />
 								<Not Bounds="480 97 25 20" Id="4aa21aefbf724f24a8cea6ba15bd1c8f" />
-								<MethodCall Bounds="1050 162 40 40" Id="80138508e32048f5b7110c58991c46fd" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Sort_table.gviweb&quot;" Signature="@0b2a51a4d19149b7953233d0103f43e4" Target="WebApp::Sort_table.gviweb" xmlns="http://www.ni.com/MocCommon">
+								<MethodCall Bounds="1050 162 40 40" Id="80138508e32048f5b7110c58991c46fd" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Sort_table.gviweb&quot;" Signature="@0b2a51a4d19149b7953233d0103f43e4" Target="WebApp::Sort_table.gviweb" xmlns="http://www.ni.com/MocCommon">
 									<p.MethodDeclaration>
 										<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 											<Parameter Id="L0" Desc="Sort Process name" />
@@ -3891,7 +3891,7 @@
 								<Wire Id="827aa447a19b4839a94e5c54fdd87307" Joints="N(b7ea6bd939f44793adfb7d5e253ebdaf:Out)|(1405,62) N(5aa29a5893a4f1b9b470a5ed6583767:3cb10a47a8e84552816ebfb990201320)|(2414,62)" xmlns="http://www.ni.com/PlatformFramework" />
 								<EventStructure.AttachedEvent EventId="{F3226E31-E688-4C58-AE1E-7ED6718409A1}" EventIndex="2" EventSourceType="Content" EventType="@0cae96bb14b54376aa4f68f3c9934361" SourceContent="8bde484caff648a984a172b4e125ef5b" SourceName="Cleaning process table" />
 								<Wire Id="bbdd939dd5a24d23b74af6c1ef02c0cf" Joints="N(6e9aa8c68e2a404fb03794ca31e5b70d:3cb10a47a8e84552816ebfb990201320)|(2,267) N(ef377a945afd400e82fff27323ab1c30:3cb10a47a8e84552816ebfb990201320)|(2414,267)" xmlns="http://www.ni.com/PlatformFramework" />
-								<MethodCall Bounds="245 167 40 40" Id="57254a9d30c4df9972ddcf075a80442" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Tools\\Haccp Web\\Haccp Visualisor\\WebApp.gcomp\\Select_more_than_Cleaning_process.gviweb&quot;" Signature="@e1943bb459844e1895de96c7cfe662f3" Target="WebApp::Select_more_than_Cleaning_process.gviweb" xmlns="http://www.ni.com/MocCommon">
+								<MethodCall Bounds="245 167 40 40" Id="57254a9d30c4df9972ddcf075a80442" ResolveFailedHint="&quot;C:\\Users\\mbou\\OneDrive - RATIONAL AG\\Desktop\\HACCP_VISUALIZER\\HACCP_VISUALIZER\\Haccp Visualisor\\WebApp.gcomp\\Select_more_than_Cleaning_process.gviweb&quot;" Signature="@e1943bb459844e1895de96c7cfe662f3" Target="WebApp::Select_more_than_Cleaning_process.gviweb" xmlns="http://www.ni.com/MocCommon">
 									<p.MethodDeclaration>
 										<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 											<Parameter Id="L0" Desc="Cleaning process old" />
@@ -4730,24 +4730,22 @@
 				</TabItem>
 				<FontSetting FontFamily="Segoe UI" FontSize="9" Id="3f822b2d558c4f14b144961b258ec549" xmlns="http://www.ni.com/PlatformFramework" />
 			</TabControl>
-			<Label Height="[float]16" Id="cb371ffdfa0a417ba256da23d4397a65" LabelOwner="[UIModel]464544924a134dadae018d2b2641e9dd" Left="[float]689" Text="[string]banner" Top="[float]4" Visible="[bool]False" Width="[float]38" xmlns="http://www.ni.com/PanelCommon" />
-			<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]39" Id="464544924a134dadae018d2b2641e9dd" Label="[UIModel]cb371ffdfa0a417ba256da23d4397a65" Left="[float]689" MinHeight="[float]24" MinWidth="[float]24" Source="{DataItemBinding Id=e9f3744a47b24fafa2182e1467eb6c3e}" Stretch="[SMStretch]Uniform" TabIndex="[int]6" Top="[float]24" Width="[float]230" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Label Height="[float]18" Id="dffe296c83c7476da7a728fe4af2bc51" LabelOwner="[UIModel]4a44936653294ad7aa78d250bb84c7e3" Left="[float]9" Text="[string]i Combi Pro txt" Top="[float]50" Visible="[bool]False" Width="[float]88" xmlns="http://www.ni.com/PanelCommon">
 				<FontSetting FontFamily="Segoe UI" FontSize="10" Id="9b87bc19373645309b39d0b6de96ff28" xmlns="http://www.ni.com/PlatformFramework" />
 			</Label>
-			<TabControl BaseName="[string]Tab" Height="[float]779" Id="4a44936653294ad7aa78d250bb84c7e3" IncludeInCapture="[bool]False" Label="[UIModel]dffe296c83c7476da7a728fe4af2bc51" Left="[float]9" SelectedIndex="{DataItemBinding Id=e13ba5746c9c4dbe88cc5318a0b14694}" TabIndex="[int]4" Top="[float]72" Width="[float]1261" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<TabItem Header="[string]General" Id="26a9dd78c9744a28c2df65b77d4566a" Left="[float]0" TabIndex="[int]4" Top="[float]0">
+			<TabControl BaseName="[string]Tab" Height="[float]779" Id="4a44936653294ad7aa78d250bb84c7e3" IncludeInCapture="[bool]False" Label="[UIModel]dffe296c83c7476da7a728fe4af2bc51" Left="[float]9" SelectedIndex="{DataItemBinding Id=e13ba5746c9c4dbe88cc5318a0b14694}" TabIndex="[int]5" Top="[float]72" Width="[float]1261" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<TabItem Header="[string]General" Id="26a9dd78c9744a28c2df65b77d4566a" Left="[float]0" TabIndex="[int]5" Top="[float]0">
 					<LayoutPanel Height="[float]754" Id="6fb385cd2a184661a27d9fb7887f94b2" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1259">
 						<Text BaseName="[string]Text" Height="[float]23" Id="9dc19e0a364842069700eb2db69a1628" Left="[float]2" SizeMode="[TextModelSizeMode]Fixed" Text="[string]🔍" TextWrapping="[TextWrapping]Wrap" Top="[float]242" Width="[float]27" xmlns="http://www.ni.com/PlatformFramework">
 							<FontSetting FontFamily="Segoe UI" FontSize="13" Id="a01d8fcc4b3c4dc18e706707a0e18189" />
 						</Text>
-						<Button BaseName="[string]Button" Content="[string]No charge is selected" Glyph="[int]61950" Height="[float]38" Id="c1b812f2523d4d96947f0f158aace8a1" Label="[UIModel]89b2f66396654b7ebb8d9f3656b047f6" Left="[float]713" TabIndex="[int]1" Top="[float]36" Value="{DataItemBinding Id=922cd2a2491b428c8f664eaa7aa05cde}" Width="[float]143">
+						<Button BaseName="[string]Button" Content="[string]No charge is selected" Glyph="[int]61950" Height="[float]38" Id="c1b812f2523d4d96947f0f158aace8a1" Label="[UIModel]89b2f66396654b7ebb8d9f3656b047f6" Left="[float]713" TabIndex="[int]0" Top="[float]36" Value="{DataItemBinding Id=922cd2a2491b428c8f664eaa7aa05cde}" Width="[float]143">
 							<FontSetting FontFamily="Segoe UI" FontSize="9" Id="6b123f92d28f4ba2aaf27c0c5e6627a6" xmlns="http://www.ni.com/PlatformFramework" />
 						</Button>
 						<Label Height="[float]18" Id="89b2f66396654b7ebb8d9f3656b047f6" LabelOwner="[UIModel]c1b812f2523d4d96947f0f158aace8a1" Left="[float]713" Text="[string]Press the button to display details:" Top="[float]14" Width="[float]217" xmlns="http://www.ni.com/PanelCommon">
 							<FontSetting FontFamily="Segoe UI" FontSize="10" FontStyle="Bold, Underline" Id="ba2f40de4e414b7a8a82081d5c58dff5" xmlns="http://www.ni.com/PlatformFramework" />
 						</Label>
-						<LVDataGrid AllowFiltering="[bool]False" AllowGrouping="[bool]False" AllowPaging="[bool]False" AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnHeaderVisibility="[Visibility]Visible" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]120" Id="2873e3df502b404689bb532d2f46f7de" IsReadOnly="[bool]True" Label="[UIModel]89b4c7d8ddbd43aeba30242880b0e1f1" Left="[float]25" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]24" ShowAddRowsToolBar="[bool]False" TabIndex="[int]2" Top="[float]25" Type="[Type]@dfab737595954c48a0f5a169e00e1efe" Value="{DataItemBinding Id=8991fba351424f09904c4668497904d2}" Width="[float]664">
+						<LVDataGrid AllowFiltering="[bool]False" AllowGrouping="[bool]False" AllowPaging="[bool]False" AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnHeaderVisibility="[Visibility]Visible" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]120" Id="2873e3df502b404689bb532d2f46f7de" IsReadOnly="[bool]True" Label="[UIModel]89b4c7d8ddbd43aeba30242880b0e1f1" Left="[float]25" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]24" ShowAddRowsToolBar="[bool]False" TabIndex="[int]1" Top="[float]25" Type="[Type]@dfab737595954c48a0f5a169e00e1efe" Value="{DataItemBinding Id=8991fba351424f09904c4668497904d2}" Width="[float]664">
 							<LVDataGridColumn ColumnElement="[UIModel]bcac9f1b67b9427da4409d7111344615" ContentFont="1d07aecbec74488f84c069bfa585f4e6" Header="[string]Details" Id="ac78cb1a389479c93a785892c8777a5" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]*">
 								<FontSetting FontFamily="Segoe UI" FontSize="9" Id="1d07aecbec74488f84c069bfa585f4e6" xmlns="http://www.ni.com/PlatformFramework" />
 								<StringControl Height="[float]24" Id="bcac9f1b67b9427da4409d7111344615" IsReadOnly="[bool]True" Left="[float]0" Top="[float]0" Width="[float]20">
@@ -4766,7 +4764,7 @@
 						<Label Height="[float]18" Id="89b4c7d8ddbd43aeba30242880b0e1f1" LabelOwner="[UIModel]2873e3df502b404689bb532d2f46f7de" Left="[float]25" Text="[string]Specifications:" Top="[float]3" Width="[float]91" xmlns="http://www.ni.com/PanelCommon">
 							<FontSetting FontFamily="Segoe UI" FontSize="10" FontStyle="Bold, Underline" Id="4c276c15dbcb43c7a7bb100162ae0981" xmlns="http://www.ni.com/PlatformFramework" />
 						</Label>
-						<Button BaseName="[string]Button" ClickMode="[ClickMode]Press" Content="[string]Sort Process name" ContentVisibility="[Visibility]Visible" Glyph="[int]0" Height="[float]28" Id="4337d3df8124436ebfd00bb154a34f58" IsMomentary="[bool]False" IsTabStop="[bool]True" Label="[UIModel]62b4f6aca95f45609f0aacd5fd09af3e" LabelLinked="[bool]True" Left="[float]189" TabIndex="[int]3" Top="[float]178" Value="{DataItemBinding Id=797f672b8df14142909b65aba4ef3e55}" Width="[float]136" />
+						<Button BaseName="[string]Button" ClickMode="[ClickMode]Press" Content="[string]Sort Process name" ContentVisibility="[Visibility]Visible" Glyph="[int]0" Height="[float]28" Id="4337d3df8124436ebfd00bb154a34f58" IsMomentary="[bool]False" IsTabStop="[bool]True" Label="[UIModel]62b4f6aca95f45609f0aacd5fd09af3e" LabelLinked="[bool]True" Left="[float]189" TabIndex="[int]2" Top="[float]178" Value="{DataItemBinding Id=797f672b8df14142909b65aba4ef3e55}" Width="[float]136" />
 						<Label Height="[float]16" Id="62b4f6aca95f45609f0aacd5fd09af3e" LabelOwner="[UIModel]4337d3df8124436ebfd00bb154a34f58" Left="[float]189" Text="[string]Sort Process name" Top="[float]158" Visible="[bool]False" Width="[float]98" xmlns="http://www.ni.com/PanelCommon" />
 						<LVDataGrid AllowFiltering="[bool]True" AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]517" Id="dd39dcc07dfd4a9da17c6092847d2ea3" IsReadOnly="[bool]False" Label="[UIModel]84cda54ac71649889b6558b5828c6c70" Left="[float]25" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]21" ShowAddRowsToolBar="[bool]False" TabIndex="[int]3" Top="[float]217" Type="[Type]@db26660754fe4489ade035c885ef0600" Value="{DataItemBinding Id=812ade149e914fad83fed832cec2e971}" Width="[float]1224">
 							<LVDataGridColumn ColumnElement="[UIModel]24d6ab6e7a3146ffac656b3930d48284" ContentFont="fb292d58a23c4590944756051c4f321c" Header="[string]Process name" Id="e1bef63dc39445ee879aed1da1902929" Index="[int]2" IsReadOnly="[bool]False" ValueType="[Type]String" Width="[DataViewerLength]160">
@@ -4831,7 +4829,7 @@
 						<Label Height="[float]16" Id="219c8cb475994e7bafa20f3494685d39" LabelAlignment="[PartAlignment]TopRight" LabelOwner="[UIModel]d124e3eda7e84bde9655f44fcc7cc8ec" Left="[float]1140" Text="[string]HACCP File Content:" Top="[float]158" Width="[float]107" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Distribution of processes over time" Id="7a1181e8c036451ba5b3817b52cc28ee" Left="[float]0" TabIndex="[int]4" Top="[float]0">
+				<TabItem Header="[string]Distribution of processes over time" Id="7a1181e8c036451ba5b3817b52cc28ee" Left="[float]0" TabIndex="[int]5" Top="[float]0">
 					<LayoutPanel Height="[float]754" Id="a83295321cc24c4881957fd9bd791d16" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1259">
 						<Text BaseName="[string]Text" Height="[float]24" Id="a26718c8708145f68c0b42d65ad2e74b" Left="[float]477" SizeMode="[TextModelSizeMode]Fixed" Text="[string]Express" TextWrapping="[TextWrapping]Wrap" Top="[float]692" Width="[float]56" xmlns="http://www.ni.com/PlatformFramework">
 							<FontSetting FontFamily="Segoe UI" FontSize="11" FontStyle="Bold" Id="bfb02839c4774f41a17ea405d012a414" />
@@ -4991,7 +4989,7 @@
 						<Label Height="[float]16" Id="fba35056a32b4ce983d7463f67cb0f97" LabelOwner="[UIModel]2a23a6a9404a4592ac4102c94575cc6c" Left="[float]756" Text="[string]URL-cleaming_graphic" Top="[float]645" Visible="[bool]False" Width="[float]119" xmlns="http://www.ni.com/PanelCommon" />
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Details of the selected programme" Id="141c09167b64498b82c7cdcbc94e90dc" Left="[float]0" TabIndex="[int]4" Top="[float]0">
+				<TabItem Header="[string]Details of the selected programme" Id="141c09167b64498b82c7cdcbc94e90dc" Left="[float]0" TabIndex="[int]5" Top="[float]0">
 					<LayoutPanel Height="[float]754" Id="6dc63c39119648fa94b78948f05c69f9" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1259">
 						<LVDataGrid AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]True" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]472" Id="46b59cbc62494f7c8e66e7dd8cc8638d" IsReadOnly="[bool]True" Label="[UIModel]59410d1e04a94d7a81359a237e4d318a" Left="[float]10" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]34" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]225" Type="[Type]@2a8b175f41bf4eb3a8230914dc539456" Value="{DataItemBinding Id=5d39a282a3b14ba6aad572fd3577d74e}" Width="[float]1032">
 							<LVDataGridColumn ColumnElement="[UIModel]b5f27c0e544f4b54b88d8d0f6c8dab36" ContentFont="451fe3a2ce904c17b005111e190f2f09" Header="[string]Cooking cabinet temp." Id="cd9a08bb07824c5dbc4e77a8a1355b9b" Index="[int]1" IsReadOnly="[bool]True" ValueType="[Type]String" Width="[DataViewerLength]150">
@@ -5051,7 +5049,7 @@
 						</Label>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Graphic Display of single selected processes" Id="dbb07ade4d64f10928ffee5c220e9a9" Left="[float]0" TabIndex="[int]4" Top="[float]0">
+				<TabItem Header="[string]Graphic Display of single selected processes" Id="dbb07ade4d64f10928ffee5c220e9a9" Left="[float]0" TabIndex="[int]5" Top="[float]0">
 					<LayoutPanel Height="[float]754" Id="15d661260cc54a03968d8e2a2a243386" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1259">
 						<Graph DataSource="{DataItemBinding Id=34ca92c687db4133b08d36e0b472bb5a}" DataSourceType="[Type]@5a8cc60292e04aad9dda12959714a2ce" Height="[float]536" Id="29bb1348051c4a4d8d53766e34a010fc" Label="[UIModel]25f915e44d834a31afc6649257939774" Left="[float]12" TabIndex="[int]0" Top="[float]35" Width="[float]1048">
 							<Axis Adjuster="[RangeAdjuster]FitExactly" ContentFont="ecef23ab72914621885f3ae82434a1e5" Id="a90b294d3bb448959b61919cbbb3bb92" Label="[string]Time and date ⌚" LabelFont="734439c016284fbe9229679e97abce34" MajorDivisions="[UIModel]f873cd32c47340fd979acecdb6ee2e5b" MajorGridLines="[UIModel]d2a340ce1e334247a77e6b8d6a0409d8" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
@@ -5113,7 +5111,7 @@
 						</Label>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Compare cleaning processes" Id="724e679da54040779331ad93e204f8ee" Left="[float]0" Top="[float]0">
+				<TabItem Header="[string]Compare cleaning processes" Id="724e679da54040779331ad93e204f8ee" Left="[float]0" TabIndex="[int]5" Top="[float]0">
 					<LayoutPanel Height="[float]754" Id="4a20a25f12da4d2f876fc41ba3afa542" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1259">
 						<LVDataGrid AllowFiltering="[bool]True" AlternatingRowBackgrounds="[bool]False" BaseName="[string]Data Grid" CanUserSortColumns="[bool]False" ColumnSizeMode="[DataGridColumnSizeMode]StretchSingleColumn" Height="[float]600" Id="8bde484caff648a984a172b4e125ef5b" IsReadOnly="[bool]False" Label="[UIModel]eb28dd3630d441dbadb1cccbcea797ee" Left="[float]35" MinHeight="[float]100" MinWidth="[float]125" RowHeaderVisibility="[Visibility]Collapsed" RowHeight="[double]21" ShowAddRowsToolBar="[bool]False" TabIndex="[int]0" Top="[float]95" Type="[Type]@db26660754fe4489ade035c885ef0600" Value="{DataItemBinding Id=970d115c347b4901bccbb572093fe9ea}" Width="[float]1203">
 							<LVDataGridColumn ColumnElement="[UIModel]5f5585e0651a4c919ab304b922fe8bf4" ContentFont="f4af4a41b59e4ce4bbee5de5af14967e" Header="[string]Process name" Id="609db58966fc4c428d00e29a0a7cedbb" Index="[int]2" IsReadOnly="[bool]False" ValueType="[Type]String" Width="[DataViewerLength]160">
@@ -5183,7 +5181,7 @@
 						</Text>
 					</LayoutPanel>
 				</TabItem>
-				<TabItem Header="[string]Graphic Display of two selected cleaning processes" Id="2580cef1fe754d56a565dd2980cfe6ad" Left="[float]0" Top="[float]0">
+				<TabItem Header="[string]Graphic Display of two selected cleaning processes" Id="2580cef1fe754d56a565dd2980cfe6ad" Left="[float]0" TabIndex="[int]5" Top="[float]0">
 					<LayoutPanel Height="[float]754" Id="18ce612f61314857a2acd118949bce7e" Left="[float]1" MinHeight="[float]30" Top="[float]24" Width="[float]1259">
 						<Graph DataSource="{DataItemBinding Id=35aaeaddeef543fbadf6c4d8daca8aa1}" DataSourceType="[Type]@23dc1336ab0241fa93af7249bedea971" Height="[float]536" Id="28132def84084ddf8ea143da8761115c" Label="[UIModel]71d2a028500040b09939764349a1957e" Left="[float]3" TabIndex="[int]0" Top="[float]39" Width="[float]1016">
 							<Axis Adjuster="[RangeAdjuster]FitExactly" ContentFont="73ed87e4f2a148a9a4f4e8225666f794" Id="c1f306f9d92b4f2aa9ff75e83d5bb2cd" Label="[string]Time ⌚" LabelFont="48cfc090ad9d4adc8751330b09b00abc" LabelVisibility="[SMVisibility]Visible" MajorDivisions="[UIModel]f690bed20eca40a8b5faacdb1e62cf50" MajorGridLines="[UIModel]e2498575256a4223bf2afc4aa526943b" Orientation="[SMOrientation]Horizontal" Range="[IRange]0, 100, System.Double" ScaleKind="[RangeScaleKind]Linear" ValueType="[Type]Double" Visibility="[SMVisibility]Visible">
@@ -5259,6 +5257,8 @@
 				</TabItem>
 				<FontSetting FontFamily="Segoe UI" FontSize="9" Id="9fe659fa62d43ce8466e84a9c65090b" xmlns="http://www.ni.com/PlatformFramework" />
 			</TabControl>
+			<Label Height="[float]16" Id="cb371ffdfa0a417ba256da23d4397a65" LabelOwner="[UIModel]464544924a134dadae018d2b2641e9dd" Left="[float]689" Text="[string]banner" Top="[float]4" Visible="[bool]False" Width="[float]38" xmlns="http://www.ni.com/PanelCommon" />
+			<UrlImage Alternate="[string]" BaseName="[string]UrlImage" Height="[float]39" Id="464544924a134dadae018d2b2641e9dd" Label="[UIModel]cb371ffdfa0a417ba256da23d4397a65" Left="[float]689" MinHeight="[float]24" MinWidth="[float]24" Source="{DataItemBinding Id=e9f3744a47b24fafa2182e1467eb6c3e}" Stretch="[SMStretch]Uniform" TabIndex="[int]6" Top="[float]24" Width="[float]230" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<Button BaseName="[string]Button" ClickMode="[ClickMode]Release" Content="[string]Open and Analyse HACCP-File" ContentVisibility="[Visibility]Visible" Glyph="[int]61458" Height="[float]56" Id="2884795e3a646d1ab6451a705ef6941" IsMomentary="[bool]False" Label="[UIModel]8084e4af42fd493483e14066862209bb" Left="[float]9" TabIndex="[int]0" Top="[float]8" Value="{DataItemBinding Id=15111a711215488f9c5ce786d0f70f2f}" Width="[float]168" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<FontSetting FontFamily="Segoe UI" FontSize="7.85" Id="30d6b42dd405491eb0c44e5cf90837d0" xmlns="http://www.ni.com/PlatformFramework" />
 				<HtmlBehavior ClassAttributes="" xmlns="http://www.ni.com/PlatformFramework" />
